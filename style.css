@@ -1,0 +1,120 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #e5e4e4;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+}
+
+h2 {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    color: #ffff;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+img {
+    width: 450px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-position {
+    padding: 20px;
+    max-width: 100%;
+    margin: 50px 20px 50px 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 350px;
+    gap: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.card:hover {
+    background-color: rgb(9, 79, 79);
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(43, 128, 197);
+    text-align: center;
+    border-radius: 0 20px 0 20px;
+
+}
+
+.card:nth-child(4) {
+    grid-column: 1/4;
+}
+
+.similar {
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+}
+
+.img-last {
+    width: 100%;
+}
+
+.last-item {
+    width: 1450px;
+}
+
+.ejemplos {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.ejemplo-item {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+span {
+    font-weight: bold;
+}
+
+ul {
+    line-height: 30px;
+    padding-left: 30px;
+}
